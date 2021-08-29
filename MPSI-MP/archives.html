@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="../styles/style.css" type="text/css" />
   <title>Annales concours - MPSI/MP</title>
+  <script src="main.js"></script>
 </head>
 
 <body>
@@ -13,96 +14,89 @@
   </div>
 
   <div class="welcome-text">
-    <p>Sélectionnez un concours :</p>
+    <p>Faites votre sélection :</p>
   </div>
 
-  <div class="topics">
-    <a href="archives/polytechnique.html">
-      <div class="topic">
-        Polytechnique
+  <div class="dropdowns-wrapper">
+    <div id="dropdown-matiere" class="dropdown">
+      <div class="dropdown-select">
+        Sélectionnez une matière
       </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        ENS
+      <div id="matieres" class="dropdown-list">
+        <div id="Maths" class="dropdown-list__item">Maths</div>
+        <div id="Physique-Chimie" class="dropdown-list__item">Physique-Chimie</div>
+        <div id="SI" class="dropdown-list__item">SI</div>
+        <div id="Anglais" class="dropdown-list__item">Anglais</div>
+        <div id="Français-Philo" class="dropdown-list__item">Français/Philo</div>
       </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Centrale-Supelec
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Concours communs mines-ponts
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Mines - Télécom
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Concours commun INP
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        CCINP Inter-Filière
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        CCINP
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Polytech Inter - Filière
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Puissance Alpha
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Avenir Prépas
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        FESIC
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Autres écoles E3A
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Groupe INSA
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        Groupe INSA Inter - Filière
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        CESI
-      </div>
-    </a>
-    <a href="#">
-      <div class="topic">
-        EPITA
-      </div>
-    </a>
+    </div>
 
+    <div id="dropdown-concours" class="dropdown" style="display: none;">
+      <div class="dropdown-select">
+        Sélectionnez un concours
+      </div>
+      <div id="concours" class="dropdown-list">
+        <div id="Polytechnique" class="dropdown-list__item">
+          Polytechnique
+        </div>
+        <div id="ENS" class="dropdown-list__item">
+          ENS
+        </div>
+        <div id="Centrale-Supelec" class="dropdown-list__item">
+          Centrale-Supelec
+        </div>
+        <div id="Concours communs mines-ponts" class="dropdown-list__item">
+          Concours communs mines-ponts
+        </div>
+        <div id="Mines - Télécom" class="dropdown-list__item">
+          Mines - Télécom
+        </div>
+        <div id="Concours commun INP" class="dropdown-list__item">
+          Concours commun INP
+        </div>
+        <div class="dropdown-list__item">
+          CCINP Inter-Filière
+        </div>
+        <div class="dropdown-list__item">
+          CCINP
+        </div>
+        <div class="dropdown-list__item">
+          Polytech Inter - Filière
+        </div>
+        <div class="dropdown-list__item">
+          Puissance Alpha
+        </div>
+        <div class="dropdown-list__item">
+          Avenir Prépas
+        </div>
+        <div class="dropdown-list__item">
+          FESIC
+        </div>
+        <div class="dropdown-list__item">
+          Autres écoles E3A
+        </div>
+        <div class="dropdown-list__item">
+          Groupe INSA
+        </div>
+        <div class="dropdown-list__item">
+          Groupe INSA Inter - Filière
+        </div>
+        <div class="dropdown-list__item">
+          CESI
+        </div>
+        <div class="dropdown-list__item">
+          EPITA
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="topics">
+
+    <!--
+        </a>
+  -->
 
   </div>
 
